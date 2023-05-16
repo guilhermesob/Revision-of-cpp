@@ -1,0 +1,56 @@
+
+// Lecture : Introduction to C++ - Namespaces
+// OCSALY                 IDE : CLion
+
+#include <iostream>
+
+//namespace utilities{
+//
+//    bool poll_data(){
+//        // example code #1
+//    }
+//    int get_data(){
+//        // example code #2
+//    }
+//
+//}
+namespace myProfessionalUtilites{
+    //declaring the functions
+    bool poll_data();
+
+    int get_data();
+
+
+    //defining the functions
+    bool myProfessionalUtilites::poll_data() {
+        //code that return a bool from this func
+    }
+    int myProfessionalUtilites::get_data() {
+        // code that return an integer in this func
+    }
+    inline namespace  V1{
+        bool poll_data();
+        int get_data();
+    }
+
+    namespace V2{
+        bool poll_data();
+
+        int get_data();
+        int new_feature(); // our new Version 2 Program
+    }
+}
+
+int main() {
+
+    if (myProfessionalUtilites::V1::poll_data()) {
+        int i = myProfessionalUtilites::V1::get_data();
+        // we will use i variable here
+    }
+    myProfessionalUtilites::V2::poll_data(); // new Version of our namespace
+    myProfessionalUtilites::V1::poll_data();
+    myProfessionalUtilites::V2::get_data();
+
+    return 0;
+}
+

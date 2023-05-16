@@ -1,0 +1,18 @@
+
+ Lecture  Introduction to C++ - Comma        OCSALY                 IDE  CLion
+
+
+#include iostream
+
+int main() {
+
+    int a = 9;
+    int b = 4;
+    int c;   0
+    c = (a + 8, b + 1);     17 , 5
+
+    stdcout  c  stdendl;
+
+    return 0;
+}
+

@@ -1,0 +1,19 @@
+
+// Lecture : Introduction to C++ - Constant Expression
+// OCSALY                 IDE : CLion
+
+#include <cmath>
+#include <iostream>
+
+constexpr int traing(int i){
+    return (i == 0) ? 0 : traing(i - 1) + i;
+}
+
+int main() {
+
+    constexpr double pi =31.1415;
+    constexpr double twopi = 2 * pi;
+
+    return 0;
+}
+

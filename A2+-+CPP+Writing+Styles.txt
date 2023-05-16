@@ -1,0 +1,53 @@
+
+// Lecture : Introduction to C++ - Formatting Code        OCSALY                          IDE : CLion
+
+
+// TWO Broad Formatting Styles : K&R and Allman
+
+#include <iostream>
+
+int main() {
+                                // -------------K & R Style --------------//
+    if (/* some test */) {
+        // the test is true
+        if (/* some other test*/) {
+            //second test is true
+        } else {
+            // second test is false
+        }
+    } else {
+        // second test is false
+    }
+                                // -------------  Allman Style --------------//
+    if (/* some test */)
+    {
+        // the test is true
+        if (/* some other test */) {
+            // second test is true
+        }
+        else
+        {
+            //second test is false
+        }
+    } else {
+        // the test is false
+    }
+
+    // *******************************	EXMAPLE #1 ************************************
+	
+
+    int x = 1;
+    if (x < 0) {
+        // x < 0
+        /* codess */
+        // if (x < 0)
+    } else {
+        // x >= 0
+        /* lots of codes */
+        //if (x < 0)
+    }
+
+
+    return 0;
+}
+

@@ -1,0 +1,22 @@
+
+// Lecture : Introduction to C++ - Declarin Pointers
+// OCSALY                 IDE : CLion
+
+#include <iostream>
+
+int main() {
+
+    int *p;        // WILL BE USED TO HOLD THE MEMORY ADDRESS OF AN INT
+    int i = 52;    // DECLARES AN INTEGER AND ASSIGNS VALUE
+    p = &i;        // ASSIGNS A VALUE TO THE POINTER "P" TO BE THE ADDRESS OF THE INTEGER VARIABLE
+
+    int* p1,p2,p3;
+
+    int *s1;
+    int s2;
+
+    int *t1, *t2;
+
+    return 0;
+}
+

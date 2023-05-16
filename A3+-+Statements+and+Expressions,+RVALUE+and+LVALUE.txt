@@ -1,0 +1,24 @@
+
+// Lecture : Introduction to C++ - Statements and Expressions        OCSALY                 IDE : CLion
+
+
+#include <iostream>
+#include <cmath>
+
+int main() {
+
+    int i;
+    i = 6 * 7; // answer is 42 LVALUE   -- RVALUE  == LITERALS are RVALUES
+    // I is a LVALUE and 6 * 7 is RVALUE
+
+    //6 * 7 = i; // -ERROR :  main.cpp:13:7: error: lvalue required as left operand of assignment
+
+    42;
+    std::sqrt(2); // SQUARE ROOT of 2
+
+
+    std::cout << i << std::endl;
+    return 0;
+}
+
+//
