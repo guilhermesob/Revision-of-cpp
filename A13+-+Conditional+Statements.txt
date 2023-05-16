@@ -1,0 +1,38 @@
+#include <iostream>
+
+//OCSALY        --          Conditional Statements           -- IDE
+
+int getValue();
+
+int main() {
+
+//    int a;
+//    std::cin >> a;
+//    if (a == -1) {   // 0 is FALSE anything non Zero is TRUE
+//        std::cout << "Typed -1";
+//    } else {
+//        std::cout <<  "Non -1" << std::endl;
+//
+//    }
+
+
+// == - EQUALITY OPERATOR
+// =  - ASSIGNMENT OPERATOR
+
+
+    if (int b = getValue()){
+        //b != 0
+    } else {
+        // i == 0
+    }
+
+    return 0;
+}
+
+int getValue() {
+    return 0;
+}
+
+int getValue(){
+    return 0;
+}
